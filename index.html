@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+​
+<html>
+    <head>
+​
+        <link rel="stylesheet" href="calculatorstyle2.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap">
+        <!--defer: script is downloaded in parallel to parsing the page, and executed after the page has finished parsing-->
+        <script src="calculatorscript2.js" defer></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+​
+    </head>
+​
+    <body>
+        <title>My first calculator</title>    
+        
+        <div class="calculator_grid"> <!--using grid instead of table-->
+            <div class="calculator_display">
+                <div data-previous-operand class="previous-operand"></div>
+                <div data-current-operand class="current-operand"></div>
+            </div>
+​
+            <button data-all-clear class="span_two">AC</button>
+              <button data-delete class="button">DEL</button>
+              <button data-operation class="operationButton">%</button>
+              <button data-operation class="operationButton">!</button>   
+              <button data-number class="button">7</button>
+              <button data-number class="button">8</button>
+              <button data-number class="button">9</button>
+              <button data-operation class="operationButton">√</button> <!--&Sqrt;-->
+              <button data-operation class="operationButton">²</button> <!--&sup2;-->
+              <button data-number class="button">4</button>
+              <button data-number class="button">5</button>
+              <button data-number class="button">6</button>
+              <button data-operation class="operationButton">÷</button> 
+              <button data-operation class="operationButton">*</button>
+              <button data-number class="button">1</button>
+              <button data-number class="button">2</button>
+              <button data-number class="button">3</button>
+              <button data-operation class="operationButton">+</button>
+              <button data-operation class="operationButton">-</button>
+              <button data-number class="button">.</button>
+              <button data-number class="button">0</button>
+              <button data-equals class="span_three">=</button>
+​
+        </div>
+​
+    </body>
+</html>
